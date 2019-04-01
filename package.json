@@ -1,6 +1,6 @@
 {
   "name": "graphql-merge-resolvers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small package makes easy to merge resolvers of GraphQL",
   "main": "src/index.js",
   "scripts": {
