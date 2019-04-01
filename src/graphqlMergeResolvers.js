@@ -1,15 +1,16 @@
 class GraphqlMergeResolvers {
   static merge(customResolver, rootResolver = {}) {
     const mergedResolver = rootResolver;
+    let key;
 
     if (Array.isArray(customResolver)) {
       customResolver.forEach((resolver) => {
-        for (let key in resolver) {
+        for (key in resolver) {
           mergedResolver[key] = { ...mergedResolver[key], ...resolver[key] };
         }
       });
     } else {
-      for (let key in customResolver) {
+      for (key in customResolver) {
         mergedResolver[key] = { ...mergedResolver[key], ...customResolver[key] };
       }
     }
