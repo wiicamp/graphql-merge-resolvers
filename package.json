@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/havinhthai/graphql-merge-resolvers/issues"
   },
-  "homepage": "https://github.com/havinhthai/graphql-merge-resolvers#readme"
+  "homepage": "https://github.com/havinhthai/graphql-merge-resolvers#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
 }
