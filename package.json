@@ -15,7 +15,7 @@
     "merge",
     "resolver"
   ],
-  "author": "DEVs",
+  "author": "TuiDev",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/havinhthai/graphql-merge-resolvers/issues"
