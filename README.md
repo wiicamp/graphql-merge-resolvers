@@ -1,5 +1,5 @@
 # graphql-merge-resolvers
-Small package makes easy to merge resolvers of GraphQL.
+Lightweight and powerful package makes easy to modularizing and merge your resolvers.
 
 ## Table of Contents
 - [Features](#features)
