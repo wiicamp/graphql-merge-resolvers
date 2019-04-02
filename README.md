@@ -26,7 +26,7 @@ yarn add graphql-merge-resolvers
 ## Usage
 ### Basic 
 ```javascript
-const GMR from 'graphql-merge-resolvers'; // Import this module
+const GMR = require('graphql-merge-resolvers'); // Import this module
 
 // Demo user resolver
 const userResolver = {
