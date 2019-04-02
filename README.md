@@ -98,6 +98,6 @@ console.log(mainResolver);
      
 
 ## License
-`graphql-merge-resolvers` is released under the MIT license. See [LICENSE](LICENSE) for details.  
+`graphql-merge-resolvers` is released under the MIT license. See [LICENSE](./LICENSE) for details.  
   
 Any question or support will welcome.
