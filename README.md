@@ -2,9 +2,9 @@
 Small package makes easy to merge resolvers of GraphQL.
 
 ## Features
+- Easy to use
 - Pure javascript
 - Small package without dependencies
-- Easy to use
 - ES6 classes
 
 ## Install
@@ -19,8 +19,9 @@ yarn add graphql-merge-resolvers
 ## Usage
 ### Basic 
 ```javascript
-const GMR from 'graphql-merge-resolvers';
+const GMR from 'graphql-merge-resolvers'; // Import this module
 
+// Demo user resolver
 const userResolver = {
   Query: { 
     users: (parent, args, context, info) => ['Hello', 'GraphQL'],
@@ -34,6 +35,7 @@ const userResolver = {
   }
 }
 
+// Demo book resolver
 const bookResolver = {
   Query: { 
     books: (parent, args, context, info) => ['Awesome', 'Javascript'],
@@ -47,7 +49,7 @@ const bookResolver = {
   }
 }
 
-
+// Merge time!!!
 const mainResolver = GMR.merge([
   userResolver,
   bookResolver,
@@ -56,8 +58,9 @@ const mainResolver = GMR.merge([
 console.log(mainResolver);
 ```
 
-Result
+Now we have new resolver
 ```javascript
+// console.log(mainResolver);
 {
   Query: {
     users: (parent, args, context, info) => ['Hello', 'GraphQL'],
