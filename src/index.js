@@ -1,4 +1,4 @@
-class GraphqlMergeResolvers {
+class GMR {
   static merge(customResolver, rootResolver = {}) {
     const mergedResolver = rootResolver;
     let key;
@@ -23,4 +23,4 @@ class GraphqlMergeResolvers {
   }
 }
 
-export default GraphqlMergeResolvers;
+module.exports = GMR;

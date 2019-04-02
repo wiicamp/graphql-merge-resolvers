@@ -2,5 +2,5 @@ declare module "graphql-merge-resolvers" {
   type CustomResolvers = any;
   type RootResolver = object;
 
-  export default class GraphqlMergeResolvers { };
+  export default class GMR { };
 }
