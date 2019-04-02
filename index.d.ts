@@ -1,6 +1,9 @@
 declare module "graphql-merge-resolvers" {
-  type CustomResolvers = any;
-  type RootResolver = object;
+  class GMR {
+    merge(customResolvers: any, rootResolver: object): any
+  }
 
-  export default class GMR { };
+  namespace GMR { }
+
+  export default GMR;
 }
