@@ -1,6 +1,13 @@
 # graphql-merge-resolvers
 Small package makes easy to merge resolvers of GraphQL.
 
+## Table of Contents
+- [Features](#features)
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
+- [License](#license)
+
 ## Features
 - Easy to use
 - Pure javascript
@@ -58,7 +65,7 @@ const mainResolver = GMR.merge([
 console.log(mainResolver);
 ```
 
-Now we have new resolver
+### Now we have new resolver
 ```javascript
 // console.log(mainResolver);
 {
