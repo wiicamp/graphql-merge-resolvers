@@ -88,8 +88,8 @@ console.log(mainResolver);
 
 > To get started with `graphql-merge-resolvers`, you can refer to this [example](https://github.com/havinhthai/graphql-apollo-prisma-example).
 
-### API
-#### `GMR`
+## API
+### `GMR`
 #### `merge(customResolvers: object or array, rootResolver: object): object`
 | Args                         | Type                                                            | Default | Description                                                                                                                                                                                                                                              |
 | --------------------------- | --------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
