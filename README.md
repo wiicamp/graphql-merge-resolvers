@@ -26,7 +26,7 @@ yarn add graphql-merge-resolvers
 ## Usage
 ### Basic 
 ```javascript
-const GMR from 'graphql-merge-resolvers'; // Import this module
+const GMR = require('graphql-merge-resolvers'); // Import this module
 
 // Demo user resolver
 const userResolver = {
@@ -88,8 +88,8 @@ console.log(mainResolver);
 
 > To get started with `graphql-merge-resolvers`, you can refer to this [example](https://github.com/havinhthai/graphql-apollo-prisma-example).
 
-### API
-#### `GMR`
+## API
+### `GMR`
 #### `merge(customResolvers: object or array, rootResolver: object): object`
 | Args                         | Type                                                            | Default | Description                                                                                                                                                                                                                                              |
 | --------------------------- | --------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -98,6 +98,6 @@ console.log(mainResolver);
      
 
 ## License
-`graphql-merge-resolvers` is released under the MIT license. See [LICENSE](LICENSE) for details.  
+`graphql-merge-resolvers` is released under the MIT license. See [LICENSE](./LICENSE) for details.  
   
 Any question or support will welcome.
