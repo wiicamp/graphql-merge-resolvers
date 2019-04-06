@@ -11,7 +11,7 @@ Lightweight and powerful package makes easy to modularizing and merge your resol
 ## Features
 - Easy to use
 - Pure javascript
-- Small package without dependencies
+- Lightweight package without dependencies
 - ES6 classes
 
 ## Install
