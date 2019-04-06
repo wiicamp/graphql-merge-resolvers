@@ -1,4 +1,6 @@
 # graphql-merge-resolvers
+[![TravisCI](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)](https://github.com/havinhthai/graphql-merge-resolvers)
+
 Lightweight and powerful package makes easy to modularizing and merge your resolvers.
 
 ## Table of Contents
@@ -26,7 +28,7 @@ yarn add graphql-merge-resolvers
 ## Usage
 ### Basic 
 ```javascript
-const GMR = require('graphql-merge-resolvers'); // Import this module
+const GMR = require('graphql-merge-resolvers'); // Import module
 
 // Demo user resolver
 const userResolver = {

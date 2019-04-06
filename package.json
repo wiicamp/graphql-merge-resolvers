@@ -4,8 +4,8 @@
   "description": "Lightweight and powerful package makes easy to modularizing and merge your resolvers.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --reporter spec",
-    "cover": "nyc node_modules/mocha/bin/_mocha test/*.js - - -R spec"
+    "test": "nyc mocha --reporter spec",
+    "report-coverage": "cat coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
