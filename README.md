@@ -1,5 +1,8 @@
 # graphql-merge-resolvers
-[![TravisCI](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)](https://github.com/havinhthai/graphql-merge-resolvers)
+[![NPM version](https://img.shields.io/npm/v/graphql-merge-resolvers.svg)](https://img.shields.io/npm/v/graphql-merge-resolvers.svg)
+[![TravisCI](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)
+[![License: MIT](https://img.shields.io/npm/l/graphql-merge-resolvers.svg)](https://opensource.org/licenses/MIT)
+[![Minified size](https://img.shields.io/bundlephobia/min/graphql-merge-resolvers.svg)](https://img.shields.io/bundlephobia/min/graphql-merge-resolvers.svg)
 
 Lightweight and powerful package makes easy to modularizing and merge your resolvers.
 
