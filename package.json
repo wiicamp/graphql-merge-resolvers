@@ -4,7 +4,8 @@
   "description": "Lightweight and powerful package makes easy to modularizing and merge your resolvers.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "nyc node_modules/mocha/bin/_mocha test/*.js - - -R spec"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,13 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0"
   }
 }
