@@ -1,8 +1,8 @@
 # graphql-merge-resolvers
 [![NPM version](https://img.shields.io/npm/v/graphql-merge-resolvers.svg)](https://img.shields.io/npm/v/graphql-merge-resolvers.svg)
-[![TravisCI](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)
-[![License: MIT](https://img.shields.io/npm/l/graphql-merge-resolvers.svg)](https://opensource.org/licenses/MIT)
 [![Minified size](https://img.shields.io/bundlephobia/min/graphql-merge-resolvers.svg)](https://img.shields.io/bundlephobia/min/graphql-merge-resolvers.svg)
+[![License: MIT](https://img.shields.io/npm/l/graphql-merge-resolvers.svg)](https://opensource.org/licenses/MIT)
+[![TravisCI](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)
 
 Lightweight and powerful package makes easy to modularizing and merge your resolvers.
 
@@ -91,7 +91,7 @@ console.log(mainResolver);
 }
 ```
 
-> To get started with `graphql-merge-resolvers`, you can refer to this [example](https://github.com/havinhthai/graphql-apollo-prisma-example).
+> To get started with `graphql-merge-resolvers`, you can refer to this [example](example).
 
 ## API
 ### `GMR`
@@ -101,6 +101,15 @@ console.log(mainResolver);
 | `customResolvers`                  | `Object` or `Array` | `undefined`  | Resolver or list of your resolvers want to merge. **Required**                                              |
 | `rootResolver`                     | Object              | `{}`         | Root resolver (options)  |
      
+
+## Contribution
+Contribution are always **welcome and recommended**! Here is how:
+
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/graphql-validation.git```
+- Make your changes
+- Create a pull request
+
 
 ## License
 `graphql-merge-resolvers` is released under the MIT license. See [LICENSE](./LICENSE) for details.  
