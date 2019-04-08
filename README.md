@@ -11,6 +11,7 @@ Lightweight and powerful package makes easy to modularizing and merge your resol
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
+- [Contribution](#contribution)
 - [License](#license)
 
 ## Features
@@ -106,7 +107,7 @@ console.log(mainResolver);
 Contribution are always **welcome and recommended**! Here is how:
 
 - Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/graphql-validation.git```
+- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/graphql-merge-resolvers.git```
 - Make your changes
 - Create a pull request
 
