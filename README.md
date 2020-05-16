@@ -63,10 +63,10 @@ const bookResolver = {
 }
 
 // Merge time!!!
-const mainResolver = GMR.merge([
+const mainResolver = GMR.merge(
   userResolver,
   bookResolver,
-]);
+);
 
 console.log(mainResolver);
 ```
