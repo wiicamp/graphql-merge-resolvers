@@ -1,8 +1,7 @@
 # @wiicamp/graphql-merge-resolvers
-[![NPM version](https://img.shields.io/npm/v/graphql-merge-resolvers.svg)](https://img.shields.io/npm/v/graphql-merge-resolvers.svg)
-[![Minified size](https://img.shields.io/bundlephobia/min/graphql-merge-resolvers.svg)](https://img.shields.io/bundlephobia/min/graphql-merge-resolvers.svg)
-[![License: MIT](https://img.shields.io/npm/l/graphql-merge-resolvers.svg)](https://opensource.org/licenses/MIT)
-[![TravisCI](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)](https://travis-ci.org/havinhthai/graphql-merge-resolvers.svg?branch=master)
+[![NPM version](https://img.shields.io/github/package-json/v/wiicamp/graphql-merge-resolvers)](https://www.npmjs.com/package/@wiicamp/graphql-merge-resolvers)
+[![Minified size](https://img.shields.io/github/repo-size/wiicamp/graphql-merge-resolvers?style=flat-square)](https://www.npmjs.com/package/@wiicamp/graphql-merge-resolvers)
+[![License: MIT](https://img.shields.io/github/license/wiicamp/graphql-merge-resolvers)](https://opensource.org/licenses/MIT)
 
 Lightweight and powerful package makes easy to modularizing and merge your resolvers.
 

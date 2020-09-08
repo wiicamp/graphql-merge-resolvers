@@ -1,6 +1,6 @@
 {
   "name": "@wiicamp/graphql-merge-resolvers",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Easy to modularizing and merge your resolvers.",
   "main": "src/index.js",
   "scripts": {
