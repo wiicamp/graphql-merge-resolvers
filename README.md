@@ -1,4 +1,4 @@
-# graphql-merge-resolvers
+# @wiicamp/graphql-merge-resolvers
 [![NPM version](https://img.shields.io/npm/v/graphql-merge-resolvers.svg)](https://img.shields.io/npm/v/graphql-merge-resolvers.svg)
 [![Minified size](https://img.shields.io/bundlephobia/min/graphql-merge-resolvers.svg)](https://img.shields.io/bundlephobia/min/graphql-merge-resolvers.svg)
 [![License: MIT](https://img.shields.io/npm/l/graphql-merge-resolvers.svg)](https://opensource.org/licenses/MIT)
@@ -22,17 +22,17 @@ Lightweight and powerful package makes easy to modularizing and merge your resol
 
 ## Install
 ```sh
-npm i --save graphql-merge-resolvers
+npm i --save @wiicamp/graphql-merge-resolvers
 ```
 or
 ```sh
-yarn add graphql-merge-resolvers
+yarn add @wiicamp/graphql-merge-resolvers
 ```
 
 ## Usage
 ### Basic 
 ```javascript
-const GMR = require('graphql-merge-resolvers'); // Import module
+const GMR = require('@wiicamp/graphql-merge-resolvers'); // Import module
 
 // Demo user resolver
 const userResolver = {
@@ -113,6 +113,6 @@ Contribution are always **welcome and recommended**! Here is how:
 
 
 ## License
-`graphql-merge-resolvers` is released under the MIT license. See [LICENSE](./LICENSE) for details.  
+`@wiicamp/graphql-merge-resolvers` is released under the MIT license. See [LICENSE](./LICENSE) for details.  
   
 Any question or support will welcome.

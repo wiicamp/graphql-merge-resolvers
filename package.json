@@ -1,6 +1,6 @@
 {
-  "name": "graphql-merge-resolvers",
-  "version": "1.1.16",
+  "name": "@wiicamp/graphql-merge-resolvers",
+  "version": "2.1.1",
   "description": "Easy to modularizing and merge your resolvers.",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/havinhthai/graphql-merge-resolvers.git"
+    "url": "git+https://github.com/wiicamp/graphql-merge-resolvers.git"
   },
   "keywords": [
     "graphql",
@@ -16,20 +16,20 @@
     "resolver",
     "modularizing"
   ],
-  "author": "TuiDev <vinhthai997@gmail.com>",
+  "author": "Thai Ha <vinhthai997@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/havinhthai/graphql-merge-resolvers/issues"
+    "url": "https://github.com/wiicamp/graphql-merge-resolvers/issues"
   },
-  "homepage": "https://github.com/havinhthai/graphql-merge-resolvers#readme",
+  "homepage": "https://github.com/wiicamp/graphql-merge-resolvers#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "mocha": "^7.1.0"
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "mocha": "^8.1.3"
   }
 }
